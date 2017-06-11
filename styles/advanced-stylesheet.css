@@ -1,0 +1,43 @@
+.class1{
+	color: blue;
+	background-color: aqua;
+}
+
+#id1{
+	font-family: verdana;
+	font-style: italic;
+	font-weight: bolder;
+	text-decoration-color: red;
+	margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10 px;
+    padding-top:1px;
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: black;
+}
+
+#id2{
+	font-family: georgia;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration-color: blue;
+	text-decoration: underline;
+}
+
+/*all paragraphs with class = "rahul"*/
+p.rahul{
+	font-family: arial;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration-color: black;
+	text-decoration: line-through;
+}
+
+p.rahul,#id2,#id1,.class1{
+	text-transform: uppercase;
+}
