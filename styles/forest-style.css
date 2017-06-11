@@ -1,0 +1,97 @@
+div {margin: o; padding: 0;}
+div div {background: transparent;}
+
+.forest{
+height: 404px;
+width: 334px;
+margin:100px auto;
+}
+
+.cone{
+	height: 0px;
+	width: 0px;	
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid green;
+ }
+
+.trunk{
+	background: #8E6457;
+	width: 10px; height: 40px;
+	position: absolute; top: 200px;
+	margin-left: 43.5px;
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.branch{
+	background: #403A32;
+	width: 2.5px; height: 95px;
+	position: absolute; top: 105px;
+	margin-left: 48.5px;
+}
+
+.twig{
+	background: #403A32;
+	width: 1.5px;
+	height:20px;
+	transform: rotate(-35deg);
+	position: absolute; top: 150px;
+	margin-left: 44px;
+}
+
+.twig1{
+	background: #403A32;
+	width: 1.5px;
+	height:20px;
+	transform: rotate(35deg);
+	position: absolute; top: 158px;
+	margin-left: 54px;
+}
+
+.twig2{
+	background: #403A32;
+	width: 1.5px;
+	height:35px;
+	transform: rotate(35deg);
+	position: absolute; top: 168px;
+	margin-left: 59px;
+}
+
+.twig3{
+	background: #403A32;
+	width: 1.5px;
+	height:35px;
+	transform: rotate(-35deg);
+	position: absolute; top: 168px;
+	margin-left: 39px;
+}
+
+.twig4{
+	background: #403A32;
+	width: 1.5px;
+	height:15px;
+	transform: rotate(-35deg);
+	position: absolute; top: 130px;
+	margin-left: 44px;
+}
+
+.twig5{
+	background: #403A32;
+	width: 1.5px;
+	height:15px;
+	transform: rotate(30deg);
+	position: absolute; top: 120px;
+	margin-left: 53px;
+}
+
+.twig6{
+	background: #403A32;
+	width: 1.5px;
+	height:15px;
+	transform: rotate(38deg);
+	position: absolute; top: 138px;
+	margin-left: 54px;
+}
